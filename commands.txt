@@ -1,0 +1,7 @@
+report 1
+datefilter from(11.04.12-15:21) to(11.04.12-15:30)
+#serverfilter wls_portal6
+generate
+#analyze httpReq(0,100000,10)
+#analyze sysLoad()
+analyze userAct(olivia.marinescu)
