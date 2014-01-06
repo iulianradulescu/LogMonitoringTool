@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite" verbose="10" object-factory="org.powermock.modules.testng.PowerMockObjectFactory" >
+  
+    <test name="complete">
+    <packages>
+      <package name="ro.mastermind.logmonit.commands" />
+      <package name="ro.mastermind.logmonit.config" />
+      <package name="ro.mastermind.logmonit.parsers" />
+   </packages>
+ </test>
+ 
+</suite>
+
