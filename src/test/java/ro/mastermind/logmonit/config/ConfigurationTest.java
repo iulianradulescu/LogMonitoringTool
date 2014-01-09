@@ -36,7 +36,7 @@ public class ConfigurationTest {
     
     @Test
     public void testParseArgsWithDArgument( ) {
-	String path = "/temp";
+	String path = "temp";
 	Configuration.instance().parseArgs( new String[] {"-d", path } );
 	
 	Assert.assertTrue( Configuration.instance().getLogDirectory( ).getPath( ).equals( path ));

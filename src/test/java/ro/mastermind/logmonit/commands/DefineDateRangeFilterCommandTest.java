@@ -36,7 +36,7 @@ public class DefineDateRangeFilterCommandTest {
     @Test
     public void testValidateParameter_SHORT( ) {
 	String parameter = "from(10.01-9:40)";
-	Assert.assertEquals(convert("10.01.2013-9:40"), command.validateParameter(parameter, "from"));
+	Assert.assertEquals(convert("10.01.2014-9:40"), command.validateParameter(parameter, "from"));
     }
     
     @Test
